@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+/* 在 index.css 或 App.css 中 */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap");
+
+/* 設定全域字體 */
+body {
+  font-family: "Roboto", "Noto Sans TC", sans-serif;
+}
+
+/* 或者分別設定中英文 */
+.english-text {
+  font-family: "Roboto", sans-serif;
+}
+
+.chinese-text {
+  font-family: "Noto Sans TC", sans-serif;
+}
